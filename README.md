@@ -39,6 +39,7 @@
 |Customized View -> XML||高|
 |Extension / Plugin||中|
 |UI Editor||未开始|
+|UI Spy||未开始|
 
 ### 4、thirdparty library
 
