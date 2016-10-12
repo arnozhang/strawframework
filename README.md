@@ -23,19 +23,20 @@
 
 ### 3、实现 / TODO 列表
 
-- Base Component
-- DPI-Compatible
-- Window / Dialog
-- Built-in Views (View / EditText / LineraLayout / ScrollView / etc.)
-- Theme
-- Layout
-- Drawable
-- I18N
-- Resources Manager
-- Menu
-- Message / Event
-- Customized View -> XML
-- UI Editor
+|Component - Feature|Desc|
+|---|---|
+|Base Component|Application/ MessageLoop / Log / Timer / Data ...|
+|DPI-Compatible|px / dp / sp ...|
+|Window / Dialog|CaptionWindow / Dialog / MessageBox ...|
+|Built-in Views|View / EditText / LineraLayout / ScrollView ...|
+|Theme|Style / Theme ...|
+|Layout|LinearLayout / AbsoluteLayout / FrameLayout ...|
+|Drawable|BitmapDrawable / ShapeDrawable / ColorDrawable / GifDrawable / AnimationDrawable / StateListDrawable / NinePatchDrawable ...|
+|I18N||
+|Resources Manager|Resource packer & read|
+|Menu||
+|Message / Event||
+|Extension / P
 
 ### 4、thirdparty library
 
