@@ -31,12 +31,14 @@
 |Built-in Views|View / EditText / LineraLayout / ScrollView ...|
 |Theme|Style / Theme ...|
 |Layout|LinearLayout / AbsoluteLayout / FrameLayout ...|
-|Drawable|BitmapDrawable / ShapeDrawable / ColorDrawable / GifDrawable / AnimationDrawable / StateListDrawable / NinePatchDrawable ...|
+|Drawable|BitmapDrawable / ShapeDrawable / ColorDrawable <br> GifDrawable / AnimationDrawable / StateListDrawable <br> NinePatchDrawable ...|
 |I18N||
 |Resources Manager|Resource packer & read|
 |Menu||
 |Message / Event||
+|Customized View -> XML||
 |Extension / Plugin||
+|UI Editor||
 
 ### 4、thirdparty library
 
