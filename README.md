@@ -23,22 +23,22 @@
 
 ### 3、实现 / TODO 列表
 
-|Component - Feature|Desc|
-|---|---|
-|Base Component|Application/ MessageLoop / Log / Timer / Data ...|
-|DPI-Compatible|px / dp / sp ...|
-|Window / Dialog|CaptionWindow / Dialog / MessageBox ...|
-|Built-in Views|View / EditText / LineraLayout / ScrollView ...|
-|Theme|Style / Theme ...|
-|Layout|LinearLayout / AbsoluteLayout / FrameLayout ...|
-|Drawable|BitmapDrawable / ShapeDrawable / ColorDrawable <br> GifDrawable / AnimationDrawable / StateListDrawable <br> NinePatchDrawable ...|
-|I18N||
-|Resources Manager|Resource packer & read|
-|Menu||
-|Message / Event||
-|Customized View -> XML||
-|Extension / Plugin||
-|UI Editor||
+|功能 / 特性|描述|完成度|
+|---|---|---|
+|Base Component|Application/ MessageLoop / Log / Timer / Data ...|高|
+|DPI-Compatible|px / dp / sp ...|高|
+|Window / Dialog|CaptionWindow / Dialog / MessageBox ...|中|
+|Built-in Views|View / EditText / LineraLayout / ScrollView ...|中|
+|Theme|Style / Theme ...|中|
+|Layout|LinearLayout / AbsoluteLayout / FrameLayout ...|中|
+|Drawable|BitmapDrawable / ShapeDrawable / ColorDrawable <br> GifDrawable / AnimationDrawable / StateListDrawable <br> NinePatchDrawable ...|高|
+|I18N||高|
+|Resources Manager|Resource packer & read|中|
+|Menu||中|
+|Message / Event||低|
+|Customized View -> XML||高|
+|Extension / Plugin||中|
+|UI Editor||未开始|
 
 ### 4、thirdparty library
 
