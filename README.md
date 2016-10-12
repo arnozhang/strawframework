@@ -151,6 +151,6 @@
 
 ### 6、部分截图
 
-![CaptionWindow](./https://github.com/arnozhang/strawframework/tree/master/docs/screenshots/CaptionWindow.png)
+![CaptionWindow](https://github.com/arnozhang/strawframework/tree/master/docs/screenshots/CaptionWindow.png)
 
-![MessageBox](./https://github.com/arnozhang/strawframework/tree/master/docs/screenshots/MessageBox.png)
+![MessageBox](https://github.com/arnozhang/strawframework/tree/master/docs/screenshots/MessageBox.png)
