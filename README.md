@@ -1,10 +1,6 @@
 # StrawFramework 简介 & 目标
 
----
-
-@(Technical)[Straw|Framework]
-
-#### 0、目前阶段
+### 0、目前阶段
 
 `开发实验` 阶段：
 
