@@ -42,7 +42,7 @@
 - [skia](https://github.com/google/skia)
 - [tinyxml2](https://github.com/leethomason/tinyxml2)
 
-#### 5、一个简单的布局
+### 5、一个简单的布局
 
 - 长度单位默认大小单位为： dp；
 - 和 Android 类似，可以使用 `@dimen` / `@string` / `@drawable` / `@layout` 来索引资源；
