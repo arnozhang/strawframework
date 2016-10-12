@@ -36,7 +36,7 @@
 |Resources Manager|Resource packer & read|
 |Menu||
 |Message / Event||
-|Extension / P
+|Extension / Plugin||
 
 ### 4、thirdparty library
 
