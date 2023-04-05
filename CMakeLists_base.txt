@@ -1,0 +1,26 @@
+# base defines for projects.
+
+
+function(generate_source_group dir)
+    file(GLOB_RECURSE files LIST_DIRECTORIES true RELATIVE ${dir} ${dir}/*.*)
+
+    foreach (file ${files})
+        set(path "${dir}/${file}")
+
+        if (IS_DIRECTORY ${path})
+            # generate headers.
+            file(GLOB headers RELATIVE ${dir} ${path}/*.h)
+            source_group(include\${file} FILES ${headers})
+
+            # generate sources.
+            file(GLOB sources RELATIVE ${dir} ${path}/*.cc)
+            source_group(source\${file} FILES ${sources})
+        endif ()
+    endforeach ()
+endfunction()
+
+
+function(generate_source_group_name name)
+    set(DIR ${CMAKE_SOURCE_DIR}/src/${name})
+    generate_source_group(${DIR})
+endfunction()
