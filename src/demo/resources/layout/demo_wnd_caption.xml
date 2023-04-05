@@ -1,0 +1,53 @@
+<LinearLayout
+    width="match_parent"
+    height="@platform:dimen/caption_height"
+    orientation="horizontal"
+    background="@platform:drawable/window/wnd_caption_bkg">
+
+    <ImageView
+        id="wnd_icon"
+        width="wrap_content"
+        height="match_parent"
+        whAspect="1.0"
+        margin="4"
+        aspectFixOrientation="vertical"
+        bitmap="@drawable/icon"/>
+
+    <TextView
+        id="wnd_title"
+        width="0"
+        height="match_parent"
+        weight="1"
+        marginLeft="6"
+        marginRight="6"
+        gravity="centerVertical"
+        textColor="#000"
+        textSize="11"/>
+
+    <View
+        id="wnd_min_btn"
+        width="wrap_content"
+        height="match_parent"
+        clickable="true"
+        whAspect="1.0"
+        aspectFixOrientation="vertical"
+        background="@platform:drawable/sys_btn/wnd_min_btn"/>
+
+    <View
+        id="wnd_max_btn"
+        width="wrap_content"
+        height="match_parent"
+        clickable="true"
+        whAspect="1.0"
+        aspectFixOrientation="vertical"
+        background="@platform:drawable/sys_btn/wnd_max_btn"/>
+        
+    <View
+        id="wnd_close_btn"
+        width="wrap_content"
+        height="match_parent"
+        clickable="true"
+        whAspect="1.0"
+        aspectFixOrientation="vertical"
+        background="@platform:drawable/sys_btn/wnd_close_btn"/>
+</LinearLayout>

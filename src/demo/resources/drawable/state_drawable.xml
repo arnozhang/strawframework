@@ -1,0 +1,22 @@
+<selector>
+    <item pressed="true">
+        <shape shape="rectangle">
+            <solid color="#0079ff"/>
+            <corners radius="8"/>
+        </shape>
+    </item>
+    
+    <item hovered="true">
+        <shape shape="rectangle">
+            <solid color="#00aa66"/>
+            <corners radius="8"/>
+        </shape>
+    </item>
+    
+    <item>
+        <shape shape="rectangle">
+            <solid color="#0046aa"/>
+            <corners radius="8"/>
+        </shape>
+    </item>
+</selector>

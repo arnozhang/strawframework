@@ -1,0 +1,32 @@
+<Menu
+    itemHeight="24dp"
+    dividerLineColor="#333"
+    dividerLineMargin="3dp"
+    dividerLineHeight="1dp"
+    background="#ddd"
+    padding="3dp"
+    grayTipsColor="#555"
+    menuTextSize="12sp"
+    checkBoxBackground="@drawable/menu_item_check_box"
+    subMenuIcon="@drawable/sub_menu_icon"
+    menuItemBackground="@drawable/menu_item_bkg"
+    menuTitleColor="#d55">
+    
+    <item id="cut" icon="@drawable/hahaha" title="@string/cut" grayTips="Ctrl + X" accelKey="X"/>
+    <item id="copy" icon="@drawable/app_icon" title="@string/copy" grayTips="Ctrl + C" accelKey="C"/>
+    <item id="past" icon="@drawable/app_icon" title="@string/past" grayTips="Ctrl + V" accelKey = "V" enabled="false"/>
+    
+    <item isDivider="true"/>
+    
+    <item id="advance" title="@string/advance">
+        <Menu>
+            <item id="show_line_no" title="@string/show_line_no" checked="true"/>
+            <item id="auto_wrap" icon="@drawable/app_icon" title="@string/auto_wrap" checked="false">
+                <Menu>
+                    <item id="show_line_no" title="@string/show_line_no" checked="true"/>
+                    <item id="auto_wrap" icon="@drawable/app_icon" title="@string/auto_wrap" checked="false"/>
+                </Menu>
+            </item>
+        </Menu>
+    </item>
+</Menu>

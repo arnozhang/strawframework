@@ -1,0 +1,5 @@
+<shape shape="rectangle">
+    <solid color="#eaebec"/>
+    <stroke width="1" color="#0079ff"/>
+    <gradient type="linear" startColor="#fff" endColor="#0079ff" angle="90"/>
+</shape>

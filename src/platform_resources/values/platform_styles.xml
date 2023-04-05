@@ -1,0 +1,28 @@
+<resources>
+    <style name="default_caption">
+        <item name="id">caption_bar</item>
+        <item name="background">@platform:drawable/window/wnd_caption_bkg</item>
+        <item name="width">match_parent</item>
+        <item name="height">@platform:dimen/caption_height</item>
+        
+        <item name="minBtnDrawable">@platform:drawable/sys_btn/wnd_min_btn</item>
+        <item name="maxBtnDrawable">@platform:drawable/sys_btn/wnd_max_btn</item>
+        <item name="closeBtnDrawable">@platform:drawable/sys_btn/wnd_close_btn</item>
+        <item name="restoreBtnDrawable">@platform:drawable/sys_btn/wnd_restore_btn</item>
+        
+        <item name="titleTextSize">11dp</item>
+        <item name="titleTextColor">#000</item>
+    </style>
+
+    <style name="default_window" target="Window">
+        <item name="clientBackground">@platform:drawable/window/default_window_bkg</item>
+    </style>
+
+    <style name="default_caption_window" target="CaptionWindow">
+        <item name="captionStyle">@platform:style/default_caption</item>
+        <item name="clientBackground">@platform:drawable/window/wnd_client_bkg</item>
+    </style>
+    
+    <style name="default_msgbox_window" target="MessageBoxWindow" parent="default_caption_window">
+    </style>
+</resources>

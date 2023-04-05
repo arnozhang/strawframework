@@ -1,0 +1,53 @@
+<LinearLayout
+    id="content_root"
+    width="match_parent"
+    height="match_parent"
+    padding="20"
+    orientation="vertical">
+    
+    <LinearLayout
+        width="match_parent"
+        height="wrap_content"
+        
+        gravity="centerVertical"
+        orientation="horizontal">
+        
+        <ImageView
+            id="msgIcon"
+            width="40dp"
+            height="40dp"/>
+        
+        <TextView
+            id="msgContent"
+            width="match_parent"
+            height="wrap_content"
+            textSize="14"
+            marginLeft="10dp"/>
+    </LinearLayout>
+    
+    <LinearLayout
+        width="wrap_content"
+        height="wrap_content"
+        layoutGravity="right"
+
+        marginTop="15dp"
+        orientation="horizontal">
+        
+        <Button
+            id="leftBtn"
+            width="wrap_content"
+            height="wrap_content"
+            textSize="14dp"
+            padding="10"
+            background="@platform:drawable/default_btn/default_btn"/>
+            
+        <Button
+            id="rightBtn"
+            width="wrap_content"
+            height="wrap_content"
+            marginLeft="20dp"
+            textSize="14dp"
+            padding="10"
+            background="@platform:drawable/default_btn/default_btn"/>
+    </LinearLayout>
+</LinearLayout>

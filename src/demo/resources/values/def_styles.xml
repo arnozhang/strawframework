@@ -1,0 +1,9 @@
+<resources>
+    <style name="login_btn" parent="@platform:style/btn">
+        <item name="textColor">@color/state_color</item>
+    </style>
+    
+    <style target="CaptionWindow">
+        <item name="icon">@drawable/app_icon</item>
+    </style>
+</resources>

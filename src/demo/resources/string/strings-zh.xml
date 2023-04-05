@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StrawFramework Demo</string>
+    <string name="cut">Cut</string>
+    <string name="copy">Copy</string>
+    <string name="past">Past</string>
+    <string name="advance">高级设置</string>
+    <string name="show_line_no">显示行号</string>
+    <string name="auto_wrap">自动换行</string>
+    
+</resources>

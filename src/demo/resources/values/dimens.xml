@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="wnd_width">800</dimen>
+    <dimen name="wnd_height">600</dimen>
+    
+    <integer name="audio_anim_duration">100</integer>
+</resources>

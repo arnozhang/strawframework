@@ -1,0 +1,6 @@
+<resources>
+    <style target="Button">
+        <item name="gravity">center</item>
+        <item name="textSize">22</item>
+    </style>
+</resources>

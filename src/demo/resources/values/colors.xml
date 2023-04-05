@@ -1,0 +1,3 @@
+<resources>
+    <color name="hello_text_color">@platform:color/haha_color</color>
+</resources>

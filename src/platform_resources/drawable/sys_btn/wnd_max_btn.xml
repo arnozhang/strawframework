@@ -1,0 +1,5 @@
+<selector>
+    <item drawable="@platform:drawable/sys_btn/wnd_max_btn_pressed" pressed="true"/>
+    <item drawable="@platform:drawable/sys_btn/wnd_max_btn_hovered" hovered="true"/>
+    <item drawable="@platform:drawable/sys_btn/wnd_max_btn_normal"/>
+</selector>

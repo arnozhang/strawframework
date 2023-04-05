@@ -1,0 +1,10 @@
+<FrameLayout
+    width="wrap_content"
+    height="wrap_content"
+    margin="20"
+    padding="30">
+    
+    <View
+        size="40,30"
+        background="#f00"/>
+</FrameLayout>

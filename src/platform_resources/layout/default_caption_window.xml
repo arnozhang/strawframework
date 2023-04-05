@@ -1,0 +1,18 @@
+<LinearLayout
+    width="match_parent"
+    height="match_parent"
+    orientation="vertical">
+
+    <FrameLayout
+        id="caption_root"
+        width="match_parent"
+        height="wrap_content">
+    </FrameLayout>
+
+    <FrameLayout
+        id="content_root"
+        width="match_parent"
+        height="match_parent"
+        marginBottom="@platform:dimen/caption_height">
+    </FrameLayout>
+</LinearLayout>

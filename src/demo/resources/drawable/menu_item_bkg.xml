@@ -1,0 +1,5 @@
+<selector>
+    <item drawable="#0068ee" pressed="true"/>
+    <item drawable="#0079ff" hovered="true"/>
+    <item drawable="#0000"/>
+</selector>

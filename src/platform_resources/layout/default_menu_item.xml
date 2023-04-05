@@ -1,0 +1,33 @@
+<LinearLayout
+    width="match_parent"
+    height="wrap_content"
+    gravity="centerVertical"
+    orientation="horizontal"
+    clickable="true">
+
+    <View
+        id="menu_icon"
+        width="wrap_content"
+        height="match_parent"
+        margin="5dp"
+        aspectFixOrientation="vertical"
+        whAspect="1"/>
+    
+    <TextView
+        id="menu_title"
+        width="wrap_content"
+        height="wrap_content"
+        marginLeft="10dp"/>
+        
+    <TextView
+        id="menu_gray_tips"
+        width="wrap_content"
+        height="wrap_content"
+        marginLeft="20dp"/>
+
+    <View
+        id="menu_sub_icon"
+        width="20dp"
+        height="20dp"
+        marginLeft="10dp"/>
+</LinearLayout>

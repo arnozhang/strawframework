@@ -1,0 +1,4 @@
+<shape shape="rectangle">
+    <solid color="#eaebec"/>
+    <corners bottomLeftRadius="4" bottomRightRadius="4"/>
+</shape>

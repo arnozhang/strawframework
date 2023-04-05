@@ -1,0 +1,10 @@
+<extension-points>
+    <extension-point
+        name="com.straw.demo.main_layout"
+        agent="com.straw.DemoPlugin.MainLayoutExtAgent" />
+        
+    <extension-point
+        name="com.straw.demo.main_caption_layout"
+        agent="com.straw.DemoPlugin.MainLayoutExtAgent" />
+
+</extension-points>

@@ -1,0 +1,6 @@
+<animation-list>
+    <item drawable="@drawable/app_background" duration="500"/>
+    <item drawable="@drawable/caption" duration="1000"/>
+    <item drawable="@drawable/demo" duration="500"/>
+    <item drawable="@drawable/app_icon" duration="2000"/>
+</animation-list>

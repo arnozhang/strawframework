@@ -1,0 +1,45 @@
+<Window
+    width="600"
+    height="400"
+    title="@app:string/app_name"
+    centerInScreen="true"
+    sizeable="bothSizeable">
+    
+    <FrameLayout
+        width="match_parent"
+        height="match_parent">
+        
+        <LinearLayout
+            width="match_parent"
+            height="match_parent"
+            bottomMargin="30"
+            gravity="centerHorizontal"
+            padding="4"
+            orientation="horizontal">
+            
+            <View
+                width="100"
+                height="100"
+                layoutGravity="centerVertical"
+                background="@app:drawable/icon"/>
+                
+            <View
+                width="150"
+                height="180"
+                leftMargin="40"
+                topMargin="20"
+                background="@drawable/plugin_icon"/>
+                
+            <View
+                width="150"
+                height="250"
+                layoutGravity="bottom"
+                bottomMargin="30"
+                leftMargin="10"
+                background="@app:drawable/caption"/>
+                
+        </LinearLayout>
+        
+        <include layout="@app:layout/base_header" />
+    </FrameLayout>
+</Window>

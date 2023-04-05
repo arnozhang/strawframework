@@ -1,0 +1,43 @@
+<merge>
+
+    <ImageView
+        id="wnd_icon"
+        width="wrap_content"
+        height="match_parent"
+        whAspect="1.0"
+        margin="4"
+        aspectFixOrientation="vertical"/>
+
+    <TextView
+        id="wnd_title"
+        width="0"
+        height="match_parent"
+        weight="1"
+        marginLeft="6"
+        marginRight="6"
+        gravity="centerVertical"/>
+
+    <View
+        id="wnd_min_btn"
+        width="wrap_content"
+        height="match_parent"
+        clickable="true"
+        whAspect="1.0"
+        aspectFixOrientation="vertical"/>
+
+    <View
+        id="wnd_max_btn"
+        width="wrap_content"
+        height="match_parent"
+        clickable="true"
+        whAspect="1.0"
+        aspectFixOrientation="vertical"/>
+
+    <View
+        id="wnd_close_btn"
+        width="wrap_content"
+        height="match_parent"
+        clickable="true"
+        whAspect="1.0"
+        aspectFixOrientation="vertical"/>
+</merge>
